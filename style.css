@@ -14,6 +14,7 @@ body {
     rgba(238, 174, 202, 1) 0%,
     rgba(148, 187, 233, 1) 100%
   );
+  min-height: 100vh;
 }
 
 h1 {
@@ -26,4 +27,36 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+}
+
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  background: white;
+}
+
+.select {
+  padding: 0.5rem;
+  font-size: 2rem;
+  background: white;
+}
+
+form button {
+  color: rgb(238, 174, 202);
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background: lightblue;
+  color: white;
 }
